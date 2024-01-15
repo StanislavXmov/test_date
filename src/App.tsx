@@ -17,7 +17,7 @@ function App() {
         shadows 
       >
         <Environment
-          files="/test.hdr"
+          files="./test.hdr"
           background
           blur={0.5}
         />
