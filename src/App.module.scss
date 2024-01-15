@@ -1,0 +1,59 @@
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #d1eaff;
+}
+
+.joystickWrapper {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.dialog {
+  width: 360px;
+  height: 200px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-50%);
+  background: #d1eaff9f;
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+
+.dialogButton {
+  padding: 8px 16px;
+  background: #d1eaff;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  outline: none;
+
+  color: #000000;
+
+  &:hover {
+    background: #ffffff;
+  }
+}
+
+.image {
+  width: 220px;
+}
+
+.text {
+  padding: 8px 16px;
+  background: #d1eaff;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 20px;
+}
