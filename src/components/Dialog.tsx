@@ -31,7 +31,7 @@ const Dialog = () => {
       {step === 2 && (
         <>
           <div className={styles.text}>
-            34 года, програмист, художник, стрэйтэйджер
+            34 года, программист, художник, стрэйтэйджер
           </div>
           <button 
             className={styles.dialogButton}
