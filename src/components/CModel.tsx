@@ -17,7 +17,7 @@ interface CharacterGLTF extends GLTF {
 };
 
 export const CModel = () => {
-  const model = useGLTF('./xmov.glb') as CharacterGLTF;
+  const model = useGLTF('./xmov.glb') as unknown as CharacterGLTF;
   
   const { ref, actions } = useAnimations(model.animations);
   
